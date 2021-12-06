@@ -1,0 +1,26 @@
+.pagination {
+  margin-top: 30px;
+
+  li {
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      border: 1px solid #d5d5d5;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      line-height: 30px;
+      margin-right: 10px;
+      border-radius: 5px;
+    }
+
+    &.active {
+      a {
+        border: 1px solid #2bbef9;
+        background: #2bbef9;
+        color: #fff;
+      }
+    }
+  }
+}

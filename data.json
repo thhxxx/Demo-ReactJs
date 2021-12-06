@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "image": "bakery00001.jpeg",
+      "title": "Valentine’s Day Pink Frosted Chocolate",
+      "status": "in-stock",
+      "category": "bakery",
+      "price": 5,
+      "sale": 50,
+      "finalPrice": 2.5,
+      "id": 1
+    },
+    {
+      "image": "bakery00002.jpeg",
+      "title": "Raspberry Truffle Cookie",
+      "status": "in-stock",
+      "category": "bakery",
+      "price": 2.52,
+      "sale": 10,
+      "finalPrice": 5.87,
+      "id": 2
+    },
+    {
+      "image": "bakery00003.jpeg",
+      "title": "Pepperidge Farm Farmhouse Hearty",
+      "status": "out-of-stock",
+      "category": "bakery",
+      "price": 10.21,
+      "sale": 5,
+      "finalPrice": 5.9,
+      "id": 3
+    },
+    {
+      "image": "bakery00004.jpeg",
+      "title": "Oroweat Country Buttermilk Bread",
+      "status": "in-stock",
+      "category": "bakery",
+      "price": 1.22,
+      "sale": 0,
+      "finalPrice": 6.22,
+      "id": 4
+    },
+    {
+      "image": "bakery00005.jpeg",
+      "title": "Lemon Cream Crunch Cookies",
+      "status": "out-of-stock",
+      "category": "bakery",
+      "price": 3.26,
+      "sale": 5,
+      "finalPrice": 3.1,
+      "id": 5
+    },
+    {
+      "image": "bakery00006.jpeg",
+      "title": "100% Butter French Croissants",
+      "status": "in-stock",
+      "category": "bakery",
+      "price": 1.44,
+      "sale": 0,
+      "finalPrice": 1.44,
+      "id": 6
+    }
+  ]
+}

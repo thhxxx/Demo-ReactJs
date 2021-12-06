@@ -1,0 +1,22 @@
+.login {
+  background: url("../images/banner-login.jpg") no-repeat left / cover;
+  height: 100vh;
+
+  .box {
+    background: #fff;
+    width: 460px;
+    padding: 30px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+
+    .item {
+      h1 {
+        text-transform: uppercase;
+        font-size: 25px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

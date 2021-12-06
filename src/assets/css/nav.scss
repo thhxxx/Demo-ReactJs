@@ -1,0 +1,24 @@
+nav {
+  text-align: right;
+  margin: 30px auto 0 auto;
+  width: 1170px;
+  background: #def5ff;
+  padding: 15px;
+  border-radius: 100px;
+
+  ul {
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      width: 40px;
+      background: #2bbef9;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}

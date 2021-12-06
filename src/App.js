@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./assets/css/style.scss"
+import {Home} from "./views/Home";
+import {Route, Routes} from "react-router-dom";
+import {Layout} from "./layouts/Layout";
+import {NoMatch} from "./layouts/NoMatch";
+import {Login} from "./views/Login";
+import {useSelector} from "react-redux";
+import {AddNew} from "./views/AddNew";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const isLogin = useSelector(state => state.LoginReducer.isLogin)
+    return (
+        <div className="app">
+            <Routes>
+                <Route path="/" element={isLogin ? <Layout/> : <Login/>}>
+                    <Route index element={<Home/>}/>
+                    <Route path="add-new" element={<AddNew/>}/>
+                    <Route path="*" element={<NoMatch/>}/>
+                </Route>
+
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
